@@ -8,6 +8,7 @@ public class ApiWebApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ApiWebApplication.class, args);
+		
 	}
 
 }
