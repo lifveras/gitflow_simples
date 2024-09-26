@@ -42,6 +42,3 @@ public class PetController {
 
 // Comandos para os colaboradores
 // 1. git pull
-
-// mostrar todas sa branches
-// 1. git branch -lgit st
