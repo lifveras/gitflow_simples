@@ -1,19 +1,17 @@
 package br.edu.ifsp.bra.api_web.controller;
 
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-package br.edu.ifsp.bra.api_web.model.Pet;
+import br.edu.ifsp.bra.api_web.model.Pet;
 
 @RestController
 public class PetController {
-<<<<<<< HEAD
-    
-=======
     @PostMapping("/pet")
     public Pet createNewPet(@RequestBody Pet newPet){
         return newPet;
     }
->>>>>>> dev_sabrina
 }
 
 // Comandos para subir ao GitHub
